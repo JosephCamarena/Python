@@ -1,3 +1,6 @@
+# Guessing game
+# Random number generated, guess the number between 1 and 10\
+# My code:
 from random import randint
 rand_num = randint(1,10)
 again = None
@@ -13,20 +16,20 @@ while  again != "n":
 		print("Too low, try again!")
 
 # instructor code
-random_number = randint(1,10)
-while True:
-	guess = input("Pick a number from 1 to 10: ")
-	guess = int(guess)
-	if guess < random_number:
-		print("Too low!")
-	elif guess > random_number:
-		print("Too high!")
-	else:
-		print("You Won!!")
-		play_again = input("Do you want to play again? (y/n) ")
-		if play_again == "y":
-			random_number = randint(1,10)
-			guess = None
-		else:
-			print("Thank you for playing!")
-			break
+# random_number = randint(1,10)
+# while True:
+# 	guess = input("Pick a number from 1 to 10: ")
+# 	guess = int(guess)
+# 	if guess < random_number:
+# 		print("Too low!")
+# 	elif guess > random_number:
+# 		print("Too high!")
+# 	else:
+# 		print("You Won!!")
+# 		play_again = input("Do you want to play again? (y/n) ")
+# 		if play_again == "y":
+# 			random_number = randint(1,10)
+# 			guess = None
+# 		else:
+# 			print("Thank you for playing!")
+# 			break
