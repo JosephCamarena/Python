@@ -1,4 +1,5 @@
- # advanced version with computer AI; on  my own
+# advanced version of Rock Paper Scissors with 'computer AI'
+# My Code:
 from random import choice
 ai = choice(['rock', 'paper', 'scissors'])
 print("rock...\npaper...\nscissors...")
