@@ -1,3 +1,4 @@
+# printing/repeating multiple lines of inputted text using range
 # My solution
 say = int(input("How many times do I have to tell you? "))
 for i in range(say):
