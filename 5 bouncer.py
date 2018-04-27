@@ -1,8 +1,9 @@
-# this program will not work if input is a string, or float
+# this program will not work if input is a string or float
 # nested statements
+# Program is a bouncer at an 18+ club
 
 # ask for age
-age = input("How old are you: ")
+age = input("How old are you? ")
 
 # refactored
 if age: #if an input is given
@@ -16,7 +17,7 @@ if age: #if an input is given
 else:
 	print("Please enter an age!")
 
-# # Option 1
+# Option 1
 # if age: #if an input is given
 # 	age = int(age)
 # 	if age >= 18 and age < 21:
