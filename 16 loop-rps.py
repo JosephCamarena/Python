@@ -1,4 +1,6 @@
- # advanced version with computer AI and using While loop
+# advanced version of Rock Paper Scissors, with computer AI, using a While loop
+# Includes score tracking. First to 2 wins.
+# My Code:
 from random import choice
 player_wins = 0
 computer_wins = 0
@@ -10,7 +12,6 @@ while player_wins < winning_score and computer_wins < winning_score:
 	print("rock...\npaper...\nscissors...")
 	print("Computer has chosen.")
 	player = input("Player, enter your choice of rock, paper, or scissors: ").lower()
-	# .lower() converts string input to lowercase so user can use any combination of string casing with no error
 	if player == "quit" or player == "q":
 		break
 	print("SHOOT!")
