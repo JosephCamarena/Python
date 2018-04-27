@@ -1,9 +1,10 @@
+# Program was supposed to display smiley emojis in a pyramid order
+# emoji did not work, so I used 'x' instead
 # my code
-# num = 1
-# while num < 11:
-# 	for x in range(1,11):
-# 		print(f"{x}"*num)
-# 		num += 1
+num = 1
+while num < 11:
+	for x in range(1,11):
+		print(f"{x}"*num)
 
 # instructor code
 # for num in range(1,11):
@@ -15,9 +16,9 @@
 # 	times += 1
 
 # nested loop
-for x in range(3):
-	for num in range(1,11):
-		print("x" * num)
+# for x in range(3):
+# 	for num in range(1,11):
+# 		print("x" * num)
 
 
 # without string multiplication - ugly solution
