@@ -1,3 +1,4 @@
+# Create a mock playlist using a dictionary and lists
 playlist  = {
 	'title': 'patagonia bus',
 	'author': 'colt steele',
